@@ -1,0 +1,59 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.father {   
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.minos {
+  position: relative;
+  margin: 40px;
+  width: 370px;
+  height: 600px;
+  border: solid 2px rgb(180, 180, 180);
+  z-index: 1;
+  font-family: Gilroy-Bold;
+  overflow: hidden;
+}
+
+.minos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.minos img:hover {
+  transition: 0.5s;
+  transform: scale(1.4);
+}
+
+.png {
+  height: 300px;
+  overflow: hidden;
+}
+
+p {
+  padding: 10px;
+}
+
+h1 {
+  padding: 20px;
+}
+
+.review {
+  display: flex;
+}
+
+h3 {
+  margin: 5px;
+}
